@@ -1,0 +1,1 @@
+## https://www.geeksforgeeks.org/problems/cutted-segments1642/1
