@@ -2,32 +2,23 @@
 
 
 
-arr = [1,4,3,2]
-
-
 
 
 def bubbleSort(arr):
 
     n = len(arr)
-
     for i in range(n):
         sorted = True
-
         for j in range(n-i-1):
-
             if arr[j] > arr[j+1]:
                 arr[j], arr[j+1] = arr[j+1], arr[j]
-
                 sorted = False
-
         if sorted == True:
             break
-
     return arr
 
+arr = [1,4,3,2]
 res = bubbleSort(arr=arr)
-
 print(res)
 
 

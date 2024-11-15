@@ -4,37 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f474461-517a-434d-b651-873649734139" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DSARevision.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackTracking/SudokuSolver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackTracking/n_queens.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BackTracking/ratInAMaze.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/LRUCache146.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/deleteNthlastNode.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/designBrowserHistory1472.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/playGround.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/removeZeroSumSubLists1171.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/singleLinkedList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Priority Queues/1094CarPooling.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Priority Queues/23mergeKsortedLists.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Priority Queues/252meetingroom.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Priority Queues/253meetingtoom2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Priority Queues/MedianFromDataStream295.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Priority Queues/SortCharByFrequency.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Priority Queues/frequencySort451.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Priority Queues/playground.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Priority Queues/topKFrequentElements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extraTest/dim_folder/vendor.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/extraTest/ifSchemaForFile.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searching/binarySearch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/searching/searchInMatrix.py" afterDir="false" />
+    <list default="true" id="0f474461-517a-434d-b651-873649734139" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/Arrays/countSubarryWithTargetSum.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GreedyAlgorithms/jumpGame2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GreedyAlgorithms/meetingRooms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/easy_to_advanced/sprint1/practice Problems.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcodeProblemOfTheDay/nov4_3163StringCompression3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetcodeProblemOfTheDay/nov5_2914minChanges.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sortingAlgorithms/347.topKfrequentElements.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sortingAlgorithms/436.findRightInterval.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sortingAlgorithms/720.longestWordInDictionary.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sortingAlgorithms/75.SortColors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GreedyAlgorithms/55jumpGame.py" beforeDir="false" afterPath="$PROJECT_DIR$/GreedyAlgorithms/55jumpGame.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/airbyte/poc.py" beforeDir="false" afterPath="$PROJECT_DIR$/Arrays/1_twoSum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/bubbleSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sortingAlgorithms/bubbleSort.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sortingAlgorithms/selectionSort.py" beforeDir="false" afterPath="$PROJECT_DIR$/sortingAlgorithms/selectionSort.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +36,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2hqww3my6iFNEwbmP5DagOxfnB1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -63,22 +48,82 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.1094CarPooling.executor": "Run",
+    "Python.133cloneGraph.executor": "Run",
+    "Python.213House Robber2.executor": "Run",
     "Python.23mergeKsortedLists.executor": "Run",
     "Python.252meetingroom.executor": "Run",
+    "Python.310minHeightTrees_dfs.executor": "Run",
+    "Python.310minHeightTrees_leafRemoval.executor": "Run",
+    "Python.33SearchRotatedSortedArray.executor": "Run",
+    "Python.347.topKfrequentElements.executor": "Run",
+    "Python.436.findRightInterval.executor": "Run",
+    "Python.55jumpGame.executor": "Run",
+    "Python.637AvgLevelBinaryTree.executor": "Run",
+    "Python.720.longestWordInDictionary.executor": "Run",
+    "Python.74Search2DMatrix.executor": "Run",
+    "Python.75.SortColors.executor": "Run",
+    "Python.860LemonadeChange.executor": "Run",
+    "Python.BricksColouring (1).executor": "Run",
+    "Python.BricksColouring.executor": "Run",
+    "Python.CreatingGraph.executor": "Run",
+    "Python.KnackSack.executor": "Run",
+    "Python.KosaRajuTemplate.executor": "Run",
+    "Python.LongestCommonSubstring.executor": "Run",
     "Python.SortCharByFrequency.executor": "Run",
+    "Python.alien_dict_dfs.executor": "Run",
+    "Python.alien_dict_kahn.executor": "Run",
+    "Python.assignCookies.executor": "Run",
+    "Python.bfs.executor": "Run",
     "Python.binarySearch.executor": "Run",
+    "Python.binarySearchRecursive.executor": "Run",
+    "Python.bricksColoring.executor": "Run",
+    "Python.bubbleSort.executor": "Run",
+    "Python.climbstairs.executor": "Run",
+    "Python.codeTemplate.executor": "Run",
+    "Python.codeTemplate2.executor": "Run",
+    "Python.countDerangements.executor": "Run",
+    "Python.countSubarryWithTargetSum.executor": "Run",
+    "Python.countingSort.executor": "Run",
+    "Python.dfs.executor": "Run",
+    "Python.dfsTraversal_Naukri.executor": "Run",
     "Python.frequencySort451.executor": "Run",
+    "Python.genBalanacedParenthesis.executor": "Run",
+    "Python.heapSort.executor": "Run",
     "Python.ifSchemaForFile.executor": "Run",
+    "Python.inOrderSuccessor.executor": "Run",
+    "Python.meetingRooms.executor": "Run",
     "Python.meetingtoom2.executor": "Run",
+    "Python.mergeSort.executor": "Run",
+    "Python.minCostMerge.executor": "Run",
+    "Python.nov4_3163StringCompression3.executor": "Run",
+    "Python.nov5_2914minChanges.executor": "Run",
+    "Python.nqueenReservedSquare.executor": "Run",
     "Python.playGround.executor": "Run",
+    "Python.playground.executor": "Run",
+    "Python.practice Problems.executor": "Run",
+    "Python.quickSort.executor": "Run",
     "Python.ratInAMaze.executor": "Run",
+    "Python.recounting_a_sequence_dfs.executor": "Run",
+    "Python.recounting_a_sequence_kahn.executor": "Run",
     "Python.searchInMatrix.executor": "Run",
+    "Python.selectionSort.executor": "Run",
+    "Python.templatewithExtLibs.executor": "Run",
+    "Python.test.executor": "Run",
     "Python.topKFrequentElements.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "Python.topo_sort.executor": "Run",
+    "Python.topo_sort_kahn.executor": "Run",
+    "Python.valueOfFriendship.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.binarySearch">
-    <configuration name="1094CarPooling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Recursion/DynamicProgramming/Tabulation" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.nov5_2914minChanges">
+    <configuration name="720.longestWordInDictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSARevision" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,11 +132,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Priority Queues" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/sortingAlgorithms" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Priority Queues/1094CarPooling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sortingAlgorithms/720.longestWordInDictionary.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -100,7 +145,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="23mergeKsortedLists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="countSubarryWithTargetSum" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSARevision" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -109,33 +154,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Priority Queues" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Arrays" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Priority Queues/23mergeKsortedLists.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="binarySearch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="DSARevision" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/searching" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/searching/binarySearch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Arrays/countSubarryWithTargetSum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,7 +189,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="playGround" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="nov4_3163StringCompression3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSARevision" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -175,11 +198,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcodeProblemOfTheDay" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LinkedList/playGround.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcodeProblemOfTheDay/nov4_3163StringCompression3.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -188,7 +211,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="searchInMatrix" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="nov5_2914minChanges" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="DSARevision" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -197,11 +220,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/searching" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/leetcodeProblemOfTheDay" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/searching/searchInMatrix.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/leetcodeProblemOfTheDay/nov5_2914minChanges.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="practice Problems" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="DSARevision" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/easy_to_advanced/sprint1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/easy_to_advanced/sprint1/practice Problems.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -212,18 +257,18 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.binarySearch" />
-        <item itemvalue="Python.searchInMatrix" />
-        <item itemvalue="Python.playGround" />
-        <item itemvalue="Python.23mergeKsortedLists" />
-        <item itemvalue="Python.1094CarPooling" />
+        <item itemvalue="Python.nov5_2914minChanges" />
+        <item itemvalue="Python.practice Problems" />
+        <item itemvalue="Python.nov4_3163StringCompression3" />
+        <item itemvalue="Python.countSubarryWithTargetSum" />
+        <item itemvalue="Python.720.longestWordInDictionary" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5b207ade9991-746f403e7f0c-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-241.17890.14" />
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
       </set>
     </attachedChunks>
   </component>
@@ -236,7 +281,36 @@
       <option name="presentableId" value="Default" />
       <updated>1718335150673</updated>
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1719719481258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1719719481258</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit">
+      <option name="closed" value="true" />
+      <created>1723794608404</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723794608404</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit">
+      <option name="closed" value="true" />
+      <created>1726304370899</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1726304370899</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -245,6 +319,11 @@
           <url>file://$PROJECT_DIR$/main.py</url>
           <line>8</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GreedyAlgorithms/55jumpGame.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
