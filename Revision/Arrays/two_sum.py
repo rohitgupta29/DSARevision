@@ -2,6 +2,8 @@
 """Two Sum """
 from os import pipe2
 
+from Recursion.revision import result
+
 
 def two_sum(arr, target):
 
@@ -12,7 +14,7 @@ def two_sum(arr, target):
             if arr[i] + arr[j] == target:
                 return i, j
 
-res = two_sum(arr=[1,2,3], target=4)
+# res = two_sum(arr=[1,2,3], target=4)
 
 # print(res)
 
@@ -29,7 +31,7 @@ def twoSum(arr, target):
         # else:
         #     return "!!"
 
-res = twoSum(arr=[1,2,5], target= 7)
+# res = twoSum(arr=[1,2,5], target= 7)
 
 # print(res)
 
@@ -49,7 +51,7 @@ def twoSumHash(arr,target):
         ## Add the current number to our hash table
         numToIndex[arr[i]] = i
 
-res = twoSumHash(arr=[1,2,2,4,5], target= 4)
+# res = twoSumHash(arr=[1,2,2,4,5], target= 4)
 
 # print(res)
 
@@ -68,7 +70,7 @@ def twoSumii(arr, target):
 
         numToIndex[arr[i]] =  i
 
-res = twoSumii(arr=[1,2,3,4], target=3)
+# res = twoSumii(arr=[1,2,3,4], target=3)
 # print(res)
 
 
@@ -97,7 +99,7 @@ def merge(nums1,m, nums2, n):
 
     # print(nums1)
 
-res = merge(nums1=[1,2,3,0,0,0],m=3, nums2=[2,5,6], n=3)
+# res = merge(nums1=[1,2,3,0,0,0],m=3, nums2=[2,5,6], n=3)
 # print(res)
 
 
@@ -121,7 +123,7 @@ def generate(numRows):
     return triangle
 
 
-res = generate(numRows=2)
+# res = generate(numRows=2)
 # print(res)
 
 """pascal triangle 2"""
@@ -137,7 +139,7 @@ def getRow(rowIndex):
         triangle.append(new_row)
     return triangle[-1]
 
-res = getRow(rowIndex=3)
+# res = getRow(rowIndex=3)
 # print(res)
 
 """Buying and Selling Stocks"""
@@ -156,7 +158,7 @@ def maxProfit(prices):
 
     return max_profit
 
-res = maxProfit(prices=[7,1,3,9,6,4])
+# res = maxProfit(prices=[7,1,3,9,6,4])
 # print(res)
 
 
@@ -172,7 +174,7 @@ def maxProfit(prices):
 
     return total_profit
 
-res = maxProfit(prices=[3,4,5,6,2])
+# res = maxProfit(prices=[3,4,5,6,2])
 # print(res)
 
 
@@ -195,8 +197,118 @@ def majorityElement(nums):
                 count -= 1
     return candidate
 
-res = majorityElement(nums=[3,2,3])
+# res = majorityElement(nums=[3,2,3])
 
 # print(res)
 
 """Majority Element ii"""
+
+def majorityElement(nums):
+
+    md = {}
+    for num in nums:
+        md[num] = 0
+    for num in nums:
+        md[num] += 1
+
+    n2 = []
+    for k,v in md.items():
+        if v > len(nums)//3:
+          n2.append(k)
+
+    return n2
+
+# res = majorityElement(nums= [3,2,3])
+
+
+"""method 2, majority elements"""
+
+def majorityElements(nums):
+
+    candidate1 = None
+    candidate2 = None
+    count1 = 0
+    count2 = 0
+
+    for num in nums:
+        if num == candidate1:
+            count1 += 1
+        if num == candidate2:
+            count2 += 1
+        elif count1 == 0:
+            candidate1 = num
+            count1 = 1
+        elif count2 ==0:
+            candidate2 = num
+            count2 = 1
+        else:
+            count1 -= 1
+            count2 -= 1
+
+    result = []
+    for candidate in (candidate1, candidate2):
+        if candidate is not None and nums.count(candidate) > len(nums) //3:
+            result.append(candidate)
+
+    return result
+
+res = majorityElements(nums= [3,2,3])
+# print(res)
+
+nums = [3,2,3]
+# print(nums.count(3))
+
+"""Missing Ranges"""
+
+
+def findMissingRange(nums, lower, upper):
+
+    num_elements = len(nums)
+
+    if num_elements == 0:
+        return [[lower, upper]]
+    missing_ranges = []
+
+    if nums[0] > lower:
+        missing_ranges.append([lower, nums[0] - 1])
+
+    for a,b in zip(nums, nums[1:]):
+        # print(a,b )
+        if b -a > 1:
+            missing_ranges.append([a+1, b-1])
+    if nums[-1] < upper:
+        missing_ranges.append([nums[-1] + 1, upper])
+
+    return missing_ranges
+
+# res = findMissingRange(nums=[2,5,9,21], lower=0, upper = 30)
+
+# print(res)
+
+"""Alternate Method, missing Ranges"""
+
+def findMissingRanges(nums, lower, upper):
+
+    result = []
+    current = lower
+    print(".......Hello.............")
+
+    for num in nums:
+        if num > current:
+            if num == current + 1:
+                result.append(current)
+            else:
+                result.append(f"{current} -> {num - 1}")
+        current = num + 1
+
+    if current <= upper:
+        if current == upper:
+            result.append(f"{current}")
+        else:
+            result.append(f"{current} -> {upper}")
+
+    return result
+
+res = findMissingRanges(nums=[0,1,3,50,75], lower=0, upper= 99)
+# print(res)
+
