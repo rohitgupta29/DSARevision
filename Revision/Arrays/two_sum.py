@@ -158,3 +158,45 @@ def maxProfit(prices):
 
 res = maxProfit(prices=[7,1,3,9,6,4])
 # print(res)
+
+
+"""buy and sell stocks 2"""
+
+
+def maxProfit(prices):
+
+    total_profit = 0
+    for i in range(len(prices) - 1):
+        if prices[i+1] > prices[i]:
+            total_profit += prices[i+1] - prices[i]
+
+    return total_profit
+
+res = maxProfit(prices=[3,4,5,6,2])
+# print(res)
+
+
+"""Majority Element """
+
+
+def majorityElement(nums):
+
+    candidate = None
+    count = 0
+
+    for num in nums:
+        if count ==0:
+            candidate = num
+            count = 1
+        else:
+            if num == candidate:
+                count += 1
+            else:
+                count -= 1
+    return candidate
+
+res = majorityElement(nums=[3,2,3])
+
+# print(res)
+
+"""Majority Element ii"""
